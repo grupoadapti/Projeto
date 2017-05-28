@@ -44,7 +44,7 @@ body a:hover{
     color: #FFF;
     text-decoration: none;
     display: block;
-    background: #E64B3B;
+    background: #DF0174;
     padding: .71em 1em;
 	font-weight: 600;
 }
@@ -267,7 +267,7 @@ nav.navbar.navbar-default {
 /*--//header--*/
 /*--banner--*/
 .banner {
-    background: url(../azul.jpg) no-repeat center 0px;
+    background: url(../fundobannerdois.jpg) no-repeat center 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
     background-size: 
@@ -483,7 +483,7 @@ p {
 /*--//about--*/
 /*--team--*/
 .team{
-    background: url(../images/slid.jpg)no-repeat center 0px fixed;
+    background: url(../fundobanner.jpg)no-repeat center 0px fixed;
     background-size: cover;
 }
 .team-info {
