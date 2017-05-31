@@ -41,8 +41,8 @@ body a:hover{
     margin-right: 0.3em;
 }
 .navbar-header h1 a {
-	background:#fff;
-    color: #FFF;
+	background:(../sdcovet.png);
+    color: none;
     text-decoration: none;
     display: block;
     padding: .71em 1em;
@@ -451,7 +451,7 @@ nav.navbar.navbar-default {
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #2D43A5;
+    color: #FD9A22;
     font-weight: 200;
     position: relative;
     margin-bottom: 1em;
@@ -483,13 +483,14 @@ p {
 /*--//about--*/
 /*--team--*/
 .team{
-    background: url(../fundobannercinco.png)no-repeat center 0px fixed;
+    background: url(../mosaicodois.png)no-repeat center 0px fixed;
     background-size: cover;
 }
 .team-info {
     background: rgba(0, 0, 0, 0.54);
 }
 .team-grids .team-img {
+	border: 2px solid white;
 	overflow: hidden;
 	position: relative;
 	display: block;
@@ -593,9 +594,21 @@ span.glyphicon {
     color: #fff;
 }
 .services-right {
-    float: right;
-    width: 70%;
-    border: 1px solid #988AEE;
+	border: 1px solid black;
+    float: center;
+    width: 80%;
+	padding: 1.5em;
+}
+.services-right-prata {
+	border: 2px solid black;
+    float: center;
+    width: 80%;
+	padding: 1.5em;
+}
+.services-right-ouro {
+	border: 3px solid black;
+    float: center;
+    width: 90%;
 	padding: 1.5em;
 }
 .services-right h4 {
@@ -1350,7 +1363,7 @@ span.glyphicon {
     margin: 0 0.8em 0;
 }
 .portfolio-grids {
-    width: 50%;
+    width: 70%;
 }
 .b-wrapper h5 {
     padding: 46% 0;
