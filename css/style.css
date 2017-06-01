@@ -41,7 +41,7 @@ body a:hover{
     margin-right: 0.3em;
 }
 .navbar-header h1 a {
-	background:(../sdcovet.png);
+	background:(../novalogo.png);
     color: none;
     text-decoration: none;
     display: block;
@@ -58,6 +58,18 @@ body a:hover{
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background:blue !important;
+}
+.imagemlogo { 
+    width: 200px; 
+    height: 145px;
+
+}
+.imagemlogo img {
+    width: 250px; 
+    height: 90px;
+    padding-left: -200px;
+    padding-top: -150px;
+
 }
 /*--top-nav--*/
 .navbar-nav li a {
@@ -267,9 +279,9 @@ nav.navbar.navbar-default {
 /*--//header--*/
 /*--banner--*/
 .banner {
-    background: url(../mosaicodois.png) no-repeat center 0px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+    background: url(../fundonovo.jpg) no-repeat center 0px;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
     background-size: 
     min-height: 650px;
 	position: relative;
@@ -483,14 +495,14 @@ p {
 /*--//about--*/
 /*--team--*/
 .team{
-    background: url(../mosaicodois.png)no-repeat center 0px fixed;
-    background-size: cover;
+    background: url(../fundonovo.jpg)no-repeat center 0px fixed;
+    background-size: 100%;
 }
 .team-info {
     background: rgba(0, 0, 0, 0.54);
 }
 .team-grids .team-img {
-	border: 2px solid white;
+
 	overflow: hidden;
 	position: relative;
 	display: block;
